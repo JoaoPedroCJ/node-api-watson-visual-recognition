@@ -47,7 +47,7 @@ Novamente, voltando na pasta do projeto ainda dentro da pasta **api\src\config**
 }
 ```
 
-### 1.., 2..., 3... Testando!
+## 1.., 2..., 3... Testando!
 Agora dentro da pasta **api** você pode abrir o **cmd** , **powershell**, **bash**, etc, e executar o comando:
 ```
 npm install
@@ -55,3 +55,32 @@ node src/index.js
 ```
 
 ![IBM](http://cdn.nerdvana.com.br/github/powershell.gif)
+
+### Endpoints
+
+**Envio de imagem utilizando multipart form**
+
+enviar utilizando campo `file`
+
+----
+* **URL**
+
+    /wvrfile
+
+* **Method:**
+
+    `POST`
+----
+
+**Envio de imagem utilizando json e base64**
+
+enviar um objeto com parametro `b64image` com o base64 da imagem
+
+----
+* **URL**
+
+    /wvr
+
+* **Method:**
+
+    `POST`
