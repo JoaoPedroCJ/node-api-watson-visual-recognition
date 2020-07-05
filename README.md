@@ -33,7 +33,7 @@ Você precisa criar também as credenciais do *Watson* no site da [IBM](https://
 
 clicando nele na nova página vai aparece um botão "criar" no final da página, uma vez que o serviço for criado, você será redirecionado para a página de gerenciamento do serviço que você acabou de criar, no menu lateral esquerdo procure por **Credenciais de Serviços** e depois clique em **Auto-generated service credentials** destacado abaixo, então copie as *Credenciais*:
 
-![IBM](http://cdn.nerdvana.com.br/github/ibm3.png)
+![IBM](http://cdn.nerdvana.com.br/github/ibm3.jpg)
 
 Novamente, voltando na pasta do projeto ainda dentro da pasta **api\src\config** você ira criar um novo arquivo de texto com o nome `watson-vr.js` e dentro desse arquivo você vai colar as credenciais que copiou anteriormente:
 ``` js
