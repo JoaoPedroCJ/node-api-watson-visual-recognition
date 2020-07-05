@@ -18,7 +18,7 @@ Primeiro você precisa instalar o [Node.js](https://nodejs.org/en/) no seu pc e 
 Com o Git e o Node.js instalado na sua maquina e a **URL** do projeto em mãos, cria em algum lugar do seu pc uma pasta para criarmos uma copia do repositório, dentro dela abra o **cmd** , **powershell**, **bash**, etc, e digite os comandos abaixo:
 ```
 git clone https://github.com/JoaoPedroCJ/node-api-watson-visual-recognition.git
-cd video-maker
+cd node-api-watson-visual-recognition
 npm install
 ```
 
